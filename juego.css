@@ -1,0 +1,182 @@
+body{
+  margin: 0%;
+  height: 100vh;
+  width: 100%;
+  display: grid;/*El módulo de diseño de cuadrícula de CSS ofrece un sistema de diseño basado en cuadrículas, con filas y columnas, lo que facilita el diseño de páginas web sin tener que usar flotadores y posiciones.*/ 
+  place-items: center;
+}
+.phone{
+  position: relative;
+  border: 8px solid black;
+  border-radius: 40px;
+  width:300px ;
+  height: 600px;
+  background: #389fcf;
+  box-shadow: 0 19px 38px rgba(0,0, 0, 0.30),0 15px 12px rgba(0,0, 0, 0.22);
+}
+.layer1{
+  position: absolute;
+  z-index: 1;
+  height: 480px;
+  width: 75px;
+  background-color: rgb(248, 224, 224 0.1);
+  bottom: 0;
+  right: 60px;
+  
+}
+.left-ear{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  margin-top: 6px;
+  margin-left: -6px;
+  border-radius: 3pc ;
+}
+.right-ear{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  margin-top: 5px;
+  margin-left: 50px;
+  border-radius: 3pc ;
+}
+.head{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 80px;
+  left: 0;
+  right: 0;
+  margin: 0% auto;
+  position: absolute;
+  top: 9px;
+  width: 100%;
+  
+}
+.left-head--eye-outer{
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 90% 4px 9px 4px ;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.right-head--eye-outer{
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px 90% 5px 10px ;
+  margin-top: -20px;
+  margin-left: 43px;
+}
+
+.left-head--eye-inner{
+  background-color: rgb(255, 255, 255);
+  width: 6px;
+  height: 6px;
+  border-radius: 80%  ;
+  margin-top: 16px;
+  margin-left: 19px;
+  position: absolute;
+  
+}
+.right-head--eye-inner{
+  background-color: rgb(255, 255, 255);
+  width: 6px;
+  height: 6px;
+  border-radius: 80%  ;
+  margin-top: -13px;
+  margin-left: 48px;
+  position: absolute;
+  
+}
+.head-nose{
+  width: 9px;
+  height: 9px; 
+  background-color: black;
+  margin-top: 1px;
+  margin-left: 33px;
+  border:42px ;
+  
+}
+
+
+.layer2{
+  position: absolute;
+  z-index: 2;
+  height: 480px;
+  width: 75px;
+  background-color: white;
+  bottom: 0;
+  left: 60px;
+  
+}
+.layer3{
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 220px;
+  height: 430px;
+  background-color: rgb(186, 234, 255);
+  bottom: 0;
+  border-radius: 2vmin 2vmin 0 4vmin ;
+}
+.layer4{
+  position: absolute;
+  z-index: 4;
+  height: 340px;
+  width: 75px;
+  background-color: white;
+  bottom: 0;
+  left:20px;
+  
+}
+.layer5{
+  position: absolute;
+  z-index: 5;
+  height: 300px;
+  width: 220px;
+  background-color: rgb(142, 211, 238);
+  bottom: 0;
+  margin: 0;
+  border-radius: 2vmin 2vmin 0 4vmin ;
+
+}
+.layer6{
+  position: absolute;
+  z-index: 6;
+  height: 250px;
+  width: 75px;
+  background-color: white;
+  bottom: 0;
+  right: 30px;
+  
+  
+  
+}
+.layer7{
+  position: absolute;
+  z-index: 7;
+  left: 140px;
+  height: 200px;
+  width: 160px;
+  background-color: rgb(168, 228, 252);
+  bottom: 0;
+  border-radius: 2vmin 2vmin 4vmin 0 ;
+
+}
+.layer8{
+  position: absolute;
+  z-index: 8;
+}
+.layer9{
+  position: absolute;
+  z-index: 9;
+}
+.layer10{
+  position: absolute;
+  z-index: 10;
+}
